@@ -1,0 +1,76 @@
+
+ body{
+    text-align: center;
+    background-color: #824D74;
+    font-family: "Caveat Brush", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#mainimg{
+width: auto;
+height: 400px;
+border: 5px solid #BE7B72;
+border-radius: 2rem;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0.5rem; 
+    background-color: #FDAF7B; 
+    border: 2px solid #401F71;
+    border-radius: 2rem;
+    width: auto;
+    margin: 1rem auto; 
+}
+#navbar a {
+    text-decoration: none; 
+    color: #401F71; 
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #FDAF7B;
+    transition: all 0.3s ease; 
+}
+
+#navbar a:hover {
+    background-color: #401F71; 
+    color: #FDAF7B;
+}
+
+
+#main > h1{
+    color: #401F71;
+    border-radius: 25px;
+    border: 2px solid #401F71;
+    background-color: #FDAF7B;
+    width: auto;
+}
+h1{
+    color: #401F71;
+}
+h2{
+    color: #401F71;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 80px;
+}
+.about img{
+    float: left;
+    margin-right: 1rem; 
+    margin-bottom: 1rem; 
+}
+.about p {
+    text-align: justify;
+    font-size: 2rem; 
+    line-height: 1.6; 
+}
+p{
+    color: #401F71;
+    border: 2rem solid #FDAF7B;
+    border-radius: 30px;
+    background-color: #FDAF7B;
+}
